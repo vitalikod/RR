@@ -6,10 +6,11 @@ import RegisterPage from './register';
 
 const AuthRootComponent = () => {
     const location = useLocation();
-    return (
-        location.pathname === '/login' ? <LoginPage /> :
-            location.pathname === '/register' ? <RegisterPage /> : null
-    );
+
+    // return (
+    //     location.pathname === '/login' ? <LoginPage /> :
+    //         location.pathname === '/register' ? <RegisterPage /> : null
+    // );
 };
 
 export default AuthRootComponent;
